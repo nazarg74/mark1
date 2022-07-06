@@ -1,0 +1,38 @@
+/* #212121 основний
+#757575 вторинний 
+#2196F3 акцент кнопки
+#ffffff герой */
+body {
+  border-color: #757575;
+}
+.list {
+  list-style: none;
+}
+/* site-nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* comm-nav */
+.comm-nav .link{
+    color: #757575;
+}
+.comm-nav .link:hover,
+.comm-nav .link:focus {
+  color: #2196f3;
+}
+/* section */
+.section-title{
+    color: #212121;
+}
+/* hero */
+.hero-title{
+    color: #ffffff;
+}
+/* features */
+.features title{
+    color: #212121;
+}
