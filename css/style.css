@@ -1,38 +1,66 @@
-/* #212121 основний
-#757575 вторинний 
-#2196F3 акцент кнопки
-#ffffff герой */
+:root {
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-text-color: #212121;
+  --white-color: #ffffff;
+}
+
 body {
-  border-color: #757575;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
 }
 /* site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+/* current */
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 /* comm-nav */
-.comm-nav .link{
-    color: #757575;
+.comm-nav .link {
+  color: var(--primary-text-color);
 }
 .comm-nav .link:hover,
 .comm-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-/* section */
-.section-title{
-    color: #212121;
+/* head */
+.section-title {
+  color: var(--secondary-text-color);
 }
 /* hero */
-.hero-title{
-    color: #ffffff;
+.hero-title {
+  color: var(--white-color);
+}
+/* button */
+.button{
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+}
+.button.primary{
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 /* features */
-.features title{
-    color: #212121;
+.features .title {
+  color: var(--secondary-text-color);
+}
+/* team list */
+.team-list .title {
+  color: var(--secondary-text-color);
+}
+/* footer */
+.footer p{
+  color: var(--white-color)
+}
+.footer .title{
+  color:rgba(255, 255, 255, 0.6);
 }
