@@ -5,30 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./maket.html">
-          <img src="./images/logo.svg" alt="logo" />
+      <nav class="container main-nav">
+        <a href="./maket.html" class="header-logo">
+          <span class="header-span">Web</span>Studio
         </a>
-
         <ul class="site-nav list">
-          <li><a href="./maket.html" class="link">Студія</a></li>
-          <li><a href="./porfolio.html" class="link current">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
+          <li class="item"><a href="./maket.html" class="link">Студія</a></li>
+          <li class="item">
+            <a href="./porfolio.html" class="link current">Портфоліо</a>
+          </li>
+          <li class="item"><a href="" class="link">Контакти</a></li>
         </ul>
 
         <ul class="comm-nav list">
-          <li>
+          <li class="item">
             <a href="mailto:info@ devstudio.com" class="link"
               >info@ devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a href="tel:+38 096 111 11 11" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -37,70 +44,117 @@
     <main>
       <section>
         <h1>Пропозиції</h1>
-        <ul class="site2-nav list">
-          <li><button type="button" class="button">Все</button></li>
-          <li><button type="button" class="button">Веб-сайты</button></li>
-          <li><button type="button" class="button">Приложения</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
-        </ul>
-        <ul class="feature-list list">
-          <li>
-            <img src="./images/img.jpg" alt="photo1" width="370" height="294"/>
-            <h2 class="title">Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/img1.jpg" alt="photo2" width="370" height="294"/>
-            <h2 class="title">Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/img2.jpg" alt="photo3" width="370" height="294"/>
-            <h2 class="title">Ресторан Seafood</h2>
-            <p>Додаток</p>
-          </li>
-          <li>
-            <img src="./images/img3.jpg" alt="photo4" width="370" height="294"/>
-            <h2 class="title">Проект Prime</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/img4.jpg" alt="photo5" width="370" height="294"/>
-            <h2 class="title">Проект Boxes</h2>
-            <p>Додаток</p>
-          </li>
-          <li>
-            <img src="./images/img5.jpg" alt="photo6" width="370" height="294"/>
-            <h2 class="title">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/img6.jpg" alt="photo7" width="370" height="294"/>
-            <h2 class="title">Видання Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/img7.jpg" alt="photo8" width="370" height="294"/>
-            <h2 class="title">Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/img8.jpg" alt="photo9" width="370" height="294"/>
-            <h2 class="title">Growing Business</h2>
-            <p>Додаток</p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="site2-nav list">
+            <li><button type="button" class="button">Все</button></li>
+            <li><button type="button" class="button">Веб-сайты</button></li>
+            <li><button type="button" class="button">Приложения</button></li>
+            <li><button type="button" class="button">Дизайн</button></li>
+            <li><button type="button" class="button">Маркетинг</button></li>
+          </ul>
+          <ul class="feature-list list">
+            <li>
+              <img
+                src="./images/img.jpg"
+                alt="photo1"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Технокряк</h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li>
+              <img
+                src="./images/img1.jpg"
+                alt="photo2"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Постер New Orlean vs Golden Star</h2>
+              <p>Дизайн</p>
+            </li>
+            <li>
+              <img
+                src="./images/img2.jpg"
+                alt="photo3"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Ресторан Seafood</h2>
+              <p>Додаток</p>
+            </li>
+            <li>
+              <img
+                src="./images/img3.jpg"
+                alt="photo4"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Проект Prime</h2>
+              <p>Маркетинг</p>
+            </li>
+            <li>
+              <img
+                src="./images/img4.jpg"
+                alt="photo5"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Проект Boxes</h2>
+              <p>Додаток</p>
+            </li>
+            <li>
+              <img
+                src="./images/img5.jpg"
+                alt="photo6"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Inspiration has no Borders</h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li>
+              <img
+                src="./images/img6.jpg"
+                alt="photo7"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Видання Limited Edition</h2>
+              <p>Дизайн</p>
+            </li>
+            <li>
+              <img
+                src="./images/img7.jpg"
+                alt="photo8"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Проект LAB</h2>
+              <p>Маркетинг</p>
+            </li>
+            <li>
+              <img
+                src="./images/img8.jpg"
+                alt="photo9"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Growing Business</h2>
+              <p>Додаток</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="maket.html">WebStudio</a>
-      <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <br />
-        <a href="mailto:info@devstudio.com" class="title">info@devstudio.com</a
-        ><br />
-        <a href="tel:+380961111111" class="title">+38 096 111 11 11</a>
+      <a href="./maket.html" class="footer-logo">
+        <span class="header-span">Web</span>Studio
+      </a>
+      <address class="address">
+        <p class="item street">м. Київ, пр-т Лесі Українки, 26</p>
+        <a href="mailto:info@devstudio.com" class="item">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="item">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
